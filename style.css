@@ -318,6 +318,17 @@ strong {
   transition: 0.5s ease;
 }
 
+@media only screen and (max-width: 768px) {
+        .icons {
+          flex-wrap: wrap;
+          margin-top: -35px;
+        }
+
+        .icons a {
+          margin: 10px;
+        }
+      }
+
 .icons a:hover {
   color: white;
   transform: translate(0, -30px);
