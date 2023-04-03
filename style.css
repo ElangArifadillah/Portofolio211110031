@@ -1,0 +1,364 @@
+
+* {
+  margin: 0;
+  padding: 10;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f2f7f9;
+}
+header {
+  background-size: cover;
+  background-position: center;
+  max-height: 145px;
+  text-align: center;
+}
+
+.typing-animation {
+  overflow: hidden;
+  display: inline-block;
+  animation: typing 4s steps(30, end);
+  white-space: nowrap;
+  font-size: 4vw;
+  font-family: 'MV Boli', sans-serif;
+  border-left: 2px solid transparent;
+  border-width: 0 0 0 2px;
+  padding-right: 2vw;  
+}
+
+
+
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+
+.h1
+section {
+  animation-name: slide-right;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide-right {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.section-keahlian {
+  animation-name: slide-left;
+  animation-duration: 6s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide-left {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.section-riwayat-pendidikan {
+  animation-name: slide-right;
+  animation-duration: 9s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide-right {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.photography-section {
+  animation-name: slide-right;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide-right {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.poster-section {
+  animation-name: slide-left;
+  animation-duration: 7s;
+  animation-fill-mode: forwards;
+}
+
+.photography-section img {
+  width: 220px;
+  height: 340px;
+  transition: transform 0.2s ease-in-out;
+  border-radius: 48%;
+}
+
+.photography-section img:hover {
+  transform: scale(1.2);
+}
+
+.poster-section img {
+  width: 220px;
+  height: 340px;
+  transition: transform 0.2s ease-in-out;
+  border-radius: 20%;
+}
+
+.poster-section img:hover {
+  transform: scale(1.2);
+}
+
+
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #555;
+}
+.profile-image {
+  width: 225px;
+  height: 225px;
+  border-radius: 50%;
+  overflow: hidden;
+  float: left;
+  margin-right: 50px;
+  border: 4px solid #6c5bf1;
+  box-shadow: 0 0 5px #ccc;
+  transition: transform 0.3s ease-in-out;
+}
+
+.profile-image:hover {
+  transform: scale(1.2);
+}
+
+.profile-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+header {
+  background-color: #333;
+  color: #ffffff;
+  padding: 40px;
+  text-align: center;
+}
+
+nav {
+  background-color: #dcd8ef;
+
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin-right: 70px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  font-weight: bold;
+}
+
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  margin-bottom: 1000px;
+}
+
+section {
+  background-color: #dcd8ef;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+section h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+ol {
+  counter-reset: item;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ol > li {
+  display: table-row;
+  counter-increment: item;
+  margin-bottom: 10px;
+}
+
+ol > li::before {
+  content: counter(item);
+  display: table-cell;
+  text-align: right;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+ol > li strong {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+ol > li p {
+  margin: 0;
+  padding: 0;
+  display: table-cell;
+  vertical-align: top;
+}
+
+
+strong {
+  font-weight: bold;
+}
+
+.icons {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -70px;
+  transform: translate(-50%, -50%);
+}
+
+.icons a {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  display: block;
+  font-size: 30px;
+  text-align: center;
+  color: #333;
+  background-color: #dcd8ef;
+  line-height: 60px;
+  margin: 0 17px;
+  border-radius: 50%;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
+  transition: 0.5s ease;
+}
+
+.icons a:hover {
+  color: white;
+  transform: translate(0, -30px);
+  box-shadow: 0 20px 8px rgba(0, 0, 0, 0.7);
+}
+
+.icons a:nth-child(1):hover{
+  background-color: #2f4cf5;
+}
+
+.icons a:nth-child(2):hover{
+  background-image: linear-gradient(#405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+}
+
+
+.icons a:nth-child(3):hover{
+  background-color: #25D366;
+}
+
+.icons a:nth-child(4):hover{
+  background-color: #ff0000;
+}
+
+.icons a:nth-child(5):hover{
+  background-color: #9900ff;
+}
+
+.icons a:nth-child(6):hover{
+  background-image: linear-gradient(yellow, red, blue);
+}
+
+footer {
+  background-image: url('https://wallpaperaccess.com/full/250472.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
